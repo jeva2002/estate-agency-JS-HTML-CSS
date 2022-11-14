@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;700&display=swap');
+
+body, html {
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+  background-color: #F3F3F3;
+}
+
+form {
+  margin-left: 15vw;
+  margin-top: 30px;
+  background-color: white;
+  width: 70vw;
+  min-height: 85px;
+  display: flex;
+  border-radius: 4px;
+}
+
+#housing-type select, #status select, #search-input, #submit {
+  background-color: #ECECEC;
+  height: 60px;
+  margin: 12px;
+  border: none;
+  border-radius: 4px;
+  font-family: 'Rubik', sans-serif;
+}
+
+#housing-type select, #status select, #search-input {
+  padding-left: 15px;
+}
+
+#housing-type select, #status select {
+  appearance: none;
+  outline: none;
+  padding-top: 25px;
+}
+
+#housing-type select {
+  width: 15vw;
+  margin-left: 25px;
+}
+
+#status select {
+  width: 10.5vw;
+}
+
+#search-input {
+  width: 22vw;
+}
+
+#search-input:focus {
+  outline: none;
+}
+
+#submit {
+  color: white;
+  width: 16vw;
+  background-color: #2A41E8;
+}
+
+#housing-type b, #status b {
+  position: absolute;
+  z-index: 1;
+  top: 160px;
+  color: #9B9B9B;
+}
+
+#housing-type b {
+  margin-left: 43px;
+}
+
+#status b {
+  margin-left: 31px;
+}
+
+main {
+  text-align: center;
+}
+
+main h6 {
+  margin-top: 40px;
+  margin-bottom: 0;
+  color: #8C8C8C;
+}
+
+main h1 {
+  margin-top: 10px;
+  margin-bottom: 60px;
+  font-size: 35px;
+}
+
+#all {
+  color: white;
+  background-color: black;
+  margin-top: 50px;
+  width: 200px;
+  height: 40px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1050px) {
+  main {
+    margin-top: 30px;
+  }
+
+  form {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 350px;
+    margin-top: 100px;
+    margin-bottom: 120px;
+  }
+
+  #housing-type select, #status select, #search-input, #submit {
+    height: 50px;
+    width: 60vw;
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  #housing-type select, #status select, #search-input {
+    padding-left: 15px;
+  }
+  
+  #housing-type select, #status select {
+    padding-top: 0;
+  }
+  
+  #search-input {
+    padding: 0;
+  }
+  
+  #housing-type b, #status b  {
+    display: none;
+  }
+  
+}
+
+#submit-list {
+  background-color: #FF5E14;
+  color: white;
+  padding: 28px;
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+}
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/nav.css" />
+    <link rel="stylesheet" href="../styles/footer.css" />
+    <link rel="stylesheet" href="../styles/properties.css" />
+    <link rel="stylesheet" href="../styles/cards.css" />
+    <script src="../functions/properties.js" defer type="module"></script>
+    <title>Properties</title>
+  </head>
+  <body id="body">
+    <form action="" id="search">
+      <div id="housing-type">
+        <b>Type</b>
+        <select name="type" id="select-type">
+          <option value="">Select Type</option>
+          <option value="Apartment">Apartment</option>
+          <option value="House">House</option>
+          <option value="Cottage">Cottage</option>
+        </select>
+      </div>
+      <div id="status">
+        <b>Status</b>
+        <select name="status" id="select-status">
+          <option value="">Select Status</option>
+          <option value="OnSale">On Sale</option>
+          <option value="OnLease">On Lease</option>
+          <option value="Holiday">Holiday</option>
+        </select>
+      </div>
+      <input
+        type="text"
+        name="word"
+        id="search-input"
+        placeholder="Search for properties, suburbs or keywords"
+      />
+      <button type="submit" id="submit">FIND PROPERTIES</button>
+    </form>
+    <main>
+      <h6>CASA ROYAL ESTATE AGENCY</h6>
+      <h1>Featured Properties</h1>
+      <div id="cards-container"></div>
+      <button id="all">ALL PROPERTIES</button>
+    </main>
+  </body>
+</html>

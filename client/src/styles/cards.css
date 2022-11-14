@@ -1,0 +1,166 @@
+#cards-container {
+  margin-left: 5vw;
+  width: 90vw;
+  min-height: 600px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 400px);
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  height: 470px;
+  width: 390px;
+}
+
+.card:hover {
+  transform: scale(1.1, 1.1);
+  transition-duration: 500ms;
+  cursor: pointer;
+}
+
+.img-container img {
+  width: 390px;
+  height: 270px;
+}
+
+.card h4, .card h5 {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+  padding-top: 5px;
+  z-index: 1;
+}
+
+.type, .status {
+  color: white;
+  font-weight: 400;
+  height: 25px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.type {
+  background-color: #2A41E8;
+  width: 100px;
+  bottom: 410px;
+  left: 25px;
+}
+
+.status {
+  background-color: #FF5E14;
+  width: 90px;
+  padding-top: 5px;
+  padding-left: 0px;
+  bottom: 440px;
+  left: 130px;
+}
+
+.price {
+  font-size: 15px;
+  text-align: center;
+  bottom: 260px;
+  left: 25px;
+  background-color: white;
+  color: #2A41E8;
+  width: 130px;
+  height: 25px;
+  padding-top: 5px;
+  padding-left: 30px;
+}
+
+.cuadro-negro, .cuadro-azul {
+  border-radius: 5px;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.cuadro-negro {
+  background-color: black;
+}
+
+.uno {
+  bottom: 320px;
+  left: 340px;
+}
+
+.dos {
+  bottom: 350px;
+  left: 308px;
+}
+
+.cuadro-azul {
+  background-color: #2A41E8;
+  bottom: 500px;
+  left: 340px;
+  padding-left: 4.5px;
+  padding-top: 4px;
+}
+
+#myFavorite {
+  background-color: #FF5E14;
+}
+
+#heart {
+  width: 25px;
+}
+
+.info-card {
+  text-align: left;
+  max-height: 100px;
+}
+
+.location {
+  position: relative;
+  left: 50px;
+  top: 10px;
+  color: #8C8C8C;
+}
+
+.info-card h3 {
+  font-weight: 400;
+  position: relative;
+  left: 30px;
+  top: 3px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.author img {
+  width: 30px;
+  margin-left: 30px;
+}
+
+.author-name {
+  margin-left: 10px;
+  width: 200px;
+  color: #2A41E8;
+}
+
+.update-time {
+  margin-right: 10px;
+  color: #8C8C8C;
+}
+
+.features {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.bedroom {
+  margin-left: 100px;
+}
+
+.features b {
+  margin-right: 10px;
+}

@@ -1,0 +1,232 @@
+{
+  "properties" : [
+    {
+      "id" : 1,
+      "img" : "1.png",
+      "type" : "Cottage",
+      "status" : "OnSale",
+      "address":"3923 Buhler Center",
+      "location" : "San Rafael",
+      "price" : "320.000.000",
+      "size" : "200",
+      "bedroom" : "2",
+      "bathroom" : "2",
+      "garage" : "1",
+      "owner" : {
+        "name" : "Policarpa Salavarrieta",
+        "contact" : 2760121
+      },
+      "update":"9/25/2022",
+      "description" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione expedita, id necessitatibus odit beatae fugiat at amet velit cum nulla."
+    },
+    {
+      "id" : 2,
+      "img" : "2.png",
+      "type" : "House",
+      "status" : "OnLease",
+      "address":"270 Hoard Hill",
+      "location" : "Playa Blanca",
+      "price" : "1.500.000",
+      "size" : "25",
+      "bedroom" : "1",
+      "bathroom" : "1",
+      "garage" : "0",
+      "owner" : {
+        "name" : "Virgilio Barco",
+        "contact" : 276121
+      },
+      "update":"7/11/2022",
+      "description" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione expedita, id necessitatibus odit beatae fugiat at amet velit cum nulla."
+    },
+    {
+      "id" : 3,
+      "img" : "3.png",
+      "type" : "Apartment",
+      "status" : "Holiday",
+      "address":"15 1st Crossing",
+      "location" : "Coveñas",
+      "price" : "320.000",
+      "size" : "20",
+      "bedroom" : "1",
+      "bathroom" : "1",
+      "garage" : "1",
+      "owner" : {
+        "name" : "Laureano Gómez",
+        "contact" : 2760121
+      },
+      "update":"2/16/2022",
+      "description" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione expedita, id necessitatibus odit beatae fugiat at amet velit cum nulla."
+    },
+    {
+      "id": 4,
+      "img" : "2.png",
+      "type" : "House",
+      "address":"3923 Buhler Center",
+      "status" : "OnSale",
+      "location" : "El Peñol",
+      "price" : "320.000",
+      "size" : "30",
+      "bedroom" : "1",
+      "bathroom" : "1",
+      "garage" : "1",
+      "owner" : {
+        "name" : "Cesar Turbay",
+        "contact" : 2760121
+      },
+      "update":"9/23/2022",
+      "description" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione expedita, id necessitatibus odit beatae fugiat at amet velit cum nulla."
+    },
+    {
+      "id" : 5,
+      "img" : "12.png",
+      "type" : "Cottage",
+      "status" : "OnSale",
+      "address":"270 Hoard Hill",
+      "location" : "Cocorna",
+      "price" : "500.000.000",
+      "size" : "240",
+      "bedroom" : "2",
+      "bathroom" : "1",
+      "garage" : "1",
+      "owner" : {
+        "name" : "Jorge Gaitan",
+        "contact" : 2760121
+      },
+      "update":"12/17/2021",
+      "description" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione expedita, id necessitatibus odit beatae fugiat at amet velit cum nulla."
+    },
+    {
+      "id" : 6,
+      "img" : "6.png",
+      "type" : "House",
+      "status" : "OnLease",
+      "address":"2990 Hoard Hill",
+      "location" : "Jerico",
+      "price" : "520.000",
+      "size" : "210",
+      "bedroom" : "3",
+      "bathroom" : "2",
+      "garage" : "1",
+      "owner" : {
+        "name" : "Alfonso Lopez",
+        "contact" : 2760121
+      },
+      "update":"9/21/2022",
+      "description" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione expedita, id necessitatibus odit beatae fugiat at amet velit cum nulla."
+    },
+    {
+      "id" : 7,
+      "img" : "2.png",
+      "type" : "Apartment",
+      "status" : "OnLease",
+      "address":"15 4st Crossing",
+      "location" : "Poblado",
+      "price" : "920.000",
+      "size" : "20",
+      "bedroom" : "1",
+      "bathroom" : "1",
+      "garage" : "1",
+      "owner" : {
+        "name" : "Eva Peron",
+        "contact" : 2760121
+      },
+      "update":"7/7/2022",
+      "description" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione expedita, id necessitatibus odit beatae fugiat at amet velit cum nulla."
+    },
+    {
+      "id" : 8,
+      "img" : "8.png",
+      "type" : "Cottage",
+      "status" : "Holiday",
+      "location" : "Isla Rosario",
+      "address":"1627 Ohio Alley",
+      "price" : "1.320.000",
+      "size" : "300",
+      "bedroom" : "1",
+      "bathroom" : "1",
+      "garage" : "0",
+      "owner" : {
+        "name" : "Rosa Luxemburgo",
+        "contact" : 2760121
+      },
+      "update":"12/23/2021",
+      "description" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione expedita, id necessitatibus odit beatae fugiat at amet velit cum nulla."
+    },
+    {
+      "id" : 9,
+      "img" : "1.png",
+      "type" : "Apartment",
+      "status" : "OnLease",
+      "address":"4 Hanover Trail",
+      "location" : "Guatapé",
+      "price" : "710.000",
+      "size" : "400",
+      "bedroom" : "1",
+      "bathroom" : "1",
+      "garage" : "1",
+      "owner" : {
+        "name" : "Michelle Bachelet",
+        "contact" : 2760121
+      },
+      "update": "7/4/2022",
+      "description" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione expedita, id necessitatibus odit beatae fugiat at amet velit cum nulla."
+    },
+    {
+      "id": 10,
+      "img" : "10.png",
+      "type" : "House",
+      "status" : "OnLease",
+      "address":"47077 Merchant Court",
+      "location" : "Providencia",
+      "price" : "1.220.000",
+      "size" : "50",
+      "bedroom" : "1",
+      "bathroom" : "1",
+      "garage" : "0",
+      "owner" : {
+        "name" : "Margaret Thatcher",
+        "contact" : 2760121
+      },
+      "update":"10/5/2022",
+      "description" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione expedita, id necessitatibus odit beatae fugiat at amet velit cum nulla."
+    },
+    {
+      "id" : 11,
+      "img" : "11.png",
+      "type" : "House",
+      "status" : "OnSale",
+      "address":"7074 Southridge Lane",
+      "location" : "San Andres",
+      "price" : "150.320.000",
+      "size" : "700",
+      "bedroom" : "5",
+      "bathroom" : "2",
+      "garage" : "1",
+      "owner" : {
+        "name" : "Winston Churchill",
+        "contact" : 2760121
+      },
+      "update":"8/10/2022",
+      "description" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione expedita, id necessitatibus odit beatae fugiat at amet velit cum nulla."
+    },
+    {
+      "id" : 12,
+      "img" : "12.png",
+      "type" : "House",
+      "status" : "OnLease",
+      "address":"72 Ruskin Place",
+      "location" : "Leticia",
+      "price" : "320.000",
+      "size" : "300",
+      "bedroom" : "1",
+      "bathroom" : "2",
+      "garage" : "0",
+      "owner" : {
+        "name" : "Xi Ji Ping",
+        "contact" : 2760121
+      },
+      "update":"1/28/2022",
+      "description" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione expedita, id necessitatibus odit beatae fugiat at amet velit cum nulla."
+    }
+  ]
+}
