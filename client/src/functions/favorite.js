@@ -1,12 +1,7 @@
-import { footer } from '../components/footer.js';
-import { header } from '../components/header.js';
 import { createCard } from '../components/card.js';
+import { insertCommon } from './common.js';
 
-document.getElementById('body').insertAdjacentElement('afterbegin', header());
-document.getElementById('menu-icon').addEventListener('click', () => {
-  document.querySelector('.links').classList.toggle('hidden');
-});
-document.getElementById('body').insertAdjacentElement('beforeend', footer());
+insertCommon();
 
 const SERVER_URL = 'http://localhost:3000/properties/';
 

@@ -1,12 +1,6 @@
-import { footer } from './src/components/footer.js';
-import { header } from './src/components/header.js';
+import { insertCommon } from './src/functions/common.js';
 
-document
-  .getElementById('body')
-  .insertAdjacentElement('afterbegin', header(true));
-document
-  .getElementById('body')
-  .insertAdjacentElement('beforeend', footer(true));
+insertCommon(true);
 
 const form = document.getElementById('form');
 
@@ -24,8 +18,4 @@ const submit = (e) => {
 form.addEventListener('submit', submit);
 document.getElementById('properties').addEventListener('click', () => {
   sessionStorage.removeItem('search');
-});
-
-document.getElementById('menu-icon').addEventListener('click', () => {
-  document.querySelector('.links').classList.toggle('hidden');
 });

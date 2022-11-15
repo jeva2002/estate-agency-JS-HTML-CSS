@@ -3,15 +3,19 @@ export const footer = (_index = false) => {
   footerComponent.innerHTML = `
 <div class="logo-container">
   <img
-    src=${_index ? './src/img/logo-footer.png' : '../img/logo-footer.png'}
+    src=${
+      _index
+        ? './src/img/footer/logo-footer.png'
+        : '../img/footer/logo-footer.png'
+    }
     alt="Logo Casa Royal"
     id="logo-footer"
   />
   <img
     src=${
       _index
-        ? './src/img/casa-royal-footer.png'
-        : '../img/casa-royal-footer.png'
+        ? './src/img/footer/casa-royal-footer.png'
+        : '../img/footer/casa-royal-footer.png'
     }
     alt="Casa Royal"
     id="logotipo-footer"

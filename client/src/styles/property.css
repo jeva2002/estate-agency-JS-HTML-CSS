@@ -148,6 +148,11 @@ body, html {
     padding-top: 5px;
     cursor: pointer;
   }
+
+  .favorite:hover {
+    transform: scale(1.2,1.2);
+    transition-duration: 0.5s;
+  }
   
   #heart {
     width: 55px;

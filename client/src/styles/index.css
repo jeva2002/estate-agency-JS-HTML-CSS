@@ -6,6 +6,7 @@ body, html {
   margin: 0;
   box-sizing: border-box;
   font-family: 'Rubik', sans-serif;
+  user-select: none;
 }
 
 header {
@@ -13,7 +14,7 @@ header {
 }
 
 main {
-  background-image: url("../img/main-image.png");
+  background-image: url("../img/index/main-image.png");
   background-size: cover;
   height: 600px;
   display: flex;
@@ -91,7 +92,7 @@ form {
   user-select: none;
   z-index: 1;
   position: absolute;
-  top: 48vh;
+  top: 48.5vh;
   color: #9B9B9B;
 
 }
@@ -105,7 +106,7 @@ form {
 }
 
 section {
-  background-image: url("../img/testimonial/testimonials-bg.png");
+  background-image: url("../img/index/testimonials-bg.png");
   background-position: center;
   width: 93vw;
   min-height: 570px;

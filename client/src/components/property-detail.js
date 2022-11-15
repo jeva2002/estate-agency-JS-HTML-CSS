@@ -22,7 +22,7 @@ export const showProperty = async () => {
     <h3 id="type">${request.type}<span>${request.status}</span></h3>
     <div class="azul">
       <div id="size-container">
-        <h4 id="size">${request.size} Sq Ft</h4>
+        <h4 id="size">${request.size} m2</h4>
         <img src="../img/cards/area-icon.png" alt="ícono área" />
       </div>
       <div id="details">
@@ -36,7 +36,7 @@ export const showProperty = async () => {
     </div>
   </div>
   </main>
-  <div class="favorite"><img id="heart" src="../img/heart.svg"></div>
+  <div class="favorite"><img id="heart" src="../img/cards/heart.svg"></div>
   <div id="information">
     <section>
       <div class="description">
@@ -54,7 +54,7 @@ export const showProperty = async () => {
           elit. Architecto blanditiis delectus in laborum tenetur. Deserunt
           asperiores neque repudiandae eos libero consequatur laborum modi
           reiciendis exercitationem earum pariatur, dolore voluptatibus velit
-          quis harum
+          quis harum.
         </p>
       </div>
     </section>
@@ -62,7 +62,7 @@ export const showProperty = async () => {
       <h2>Contact</h2>
       <h3>${request.owner.name}</h3>
       <h4>${request.owner.contact}</h4>
-      <img src="../img/testimonial/Alanna.png" alt="" />
+      <img src="../img/index/Alanna.png" alt="Proveedor" />
     </aside>
   </div>`;
 

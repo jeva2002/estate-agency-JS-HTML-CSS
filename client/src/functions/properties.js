@@ -1,6 +1,7 @@
-import { footer } from '../components/footer.js';
-import { header } from '../components/header.js';
 import { createCard } from '../components/card.js';
+import { insertCommon } from './common.js';
+
+insertCommon();
 
 const SERVER_URL = 'http://localhost:3000/properties/';
 
@@ -57,12 +58,6 @@ const showCards = async (_data, _option) => {
     cardContainer.appendChild(createCard(info, isFavorite(info.id)));
   }
 };
-
-document.getElementById('body').insertAdjacentElement('afterbegin', header());
-document.getElementById('menu-icon').addEventListener('click', () => {
-  document.querySelector('.links').classList.toggle('hidden');
-});
-document.getElementById('body').insertAdjacentElement('beforeend', footer());
 
 let data =
   sessionStorage.getItem('search') !== null

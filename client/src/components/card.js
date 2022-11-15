@@ -11,13 +11,13 @@ export const createCard = (_data, _isFavorite) => {
       <b class="location">${_data.location}</b>
       <h3>${_data.address}</h3>
       <div class="author">
-        <img src="../img/cards/agent.png" alt="" />
+        <img src="../img/cards/agent.png" alt="Cliente" />
         <b class="author-name">${_data.owner}</b>
         <b class="update-time">${_data.update}</b>
     </div>
     <div class="features">
       <img src="../img/cards/area-icon.png" alt="ícono" class="size" />
-      <b>${_data.size} Sq Ft</b>
+      <b>${_data.size} m2</b>
       <img src="../img/cards/bedroom.png" alt="ícono dormitorio" class="bedroom" />
       <b>${_data.bedroom}</b>
       <img src="../img/cards/garage.png" alt="ícono garaje" class="garage" />
@@ -30,12 +30,12 @@ export const createCard = (_data, _isFavorite) => {
     <h5 class="price">$${_data.price}</h5>
     <div class="cuadro-azul" id=${
       _isFavorite ? 'myFavorite' : ''
-    }><img id="heart" src="../img/heart.svg"></div>
+    }><img id="heart" src="../img/cards/heart.svg"></div>
     <div class="cuadro-negro uno"></div>
     <div class="cuadro-negro dos"></div>
   </div>`;
 
-  card.addEventListener('click', (e) => {
+  card.addEventListener('click', () => {
     window.location.href = `http://${window.location.host}/src/components/property.html`;
     sessionStorage.setItem('id', _data.id);
   });

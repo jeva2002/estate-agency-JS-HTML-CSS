@@ -1,13 +1,9 @@
-import { footer } from '../components/footer.js';
-import { header } from '../components/header.js';
 import { showProperty } from '../components/property-detail.js';
+import { insertCommon } from './common.js';
 
-document.getElementById('body').insertAdjacentElement('afterbegin', header());
-document.getElementById('menu-icon').addEventListener('click', () => {
-  document.querySelector('.links').classList.toggle('hidden');
-});
 document.getElementById('body').appendChild(await showProperty());
-document.getElementById('body').insertAdjacentElement('beforeend', footer());
+
+insertCommon();
 
 const addFavorite = document.querySelector('.favorite');
 const id = parseInt(sessionStorage.getItem('id'));

@@ -158,7 +158,7 @@
       "type" : "Apartment",
       "status" : "OnLease",
       "address":"4 Hanover Trail",
-      "location" : "Guatapé",
+      "location" : "Guatape",
       "price" : "710.000",
       "size" : "400",
       "bedroom" : "1",
@@ -223,6 +223,139 @@
       "garage" : "0",
       "owner" : {
         "name" : "Xi Ji Ping",
+        "contact" : 2760121
+      },
+      "update":"1/28/2022",
+      "description" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione expedita, id necessitatibus odit beatae fugiat at amet velit cum nulla."
+    }, 
+    {
+      "id" : 13,
+      "img" : "6.png",
+      "type" : "Estate",
+      "status" : "OnLease",
+      "address":"4210 Hoard Hill",
+      "location" : "Jerico",
+      "price" : "3.820.000",
+      "size" : "210",
+      "bedroom" : "3",
+      "bathroom" : "2",
+      "garage" : "1",
+      "owner" : {
+        "name" : "Ronal Reagan",
+        "contact" : 3152096550
+      },
+      "update":"9/21/2022",
+      "description" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione expedita, id necessitatibus odit beatae fugiat at amet velit cum nulla."
+    },
+    {
+      "id" : 14,
+      "img" : "2.png",
+      "type" : "Shop",
+      "status" : "OnLease",
+      "address":"18 4st Crossing",
+      "location" : "Poblado",
+      "price" : "920.000",
+      "size" : "20",
+      "bedroom" : "1",
+      "bathroom" : "1",
+      "garage" : "1",
+      "owner" : {
+        "name" : "Eva Peron",
+        "contact" : 2760121
+      },
+      "update":"7/7/2022",
+      "description" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione expedita, id necessitatibus odit beatae fugiat at amet velit cum nulla."
+    },
+    {
+      "id" : 15,
+      "img" : "8.png",
+      "type" : "Shop",
+      "status" : "OnLease",
+      "location" : "Belen",
+      "address":"17 Belen Alley",
+      "price" : "1.320.000",
+      "size" : "300",
+      "bedroom" : "1",
+      "bathroom" : "1",
+      "garage" : "0",
+      "owner" : {
+        "name" : "Franklin Roosvelt",
+        "contact" : 2748151
+      },
+      "update":"12/23/2021",
+      "description" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione expedita, id necessitatibus odit beatae fugiat at amet velit cum nulla."
+    },
+    {
+      "id" : 16,
+      "img" : "1.png",
+      "type" : "Estate",
+      "status" : "OnLease",
+      "address":"12 Hanover Trail",
+      "location" : "Guatape",
+      "price" : "710.000",
+      "size" : "400",
+      "bedroom" : "1",
+      "bathroom" : "1",
+      "garage" : "1",
+      "owner" : {
+        "name" : "Sebastian Piñera",
+        "contact" : 2760121
+      },
+      "update": "7/4/2022",
+      "description" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione expedita, id necessitatibus odit beatae fugiat at amet velit cum nulla."
+    },
+    {
+      "id": 17,
+      "img" : "10.png",
+      "type" : "Shop",
+      "status" : "OnLease",
+      "address":"47077 Merchant Court",
+      "location" : "Santa Helena",
+      "price" : "1.220.000",
+      "size" : "50",
+      "bedroom" : "1",
+      "bathroom" : "1",
+      "garage" : "0",
+      "owner" : {
+        "name" : "Pedro Castillo",
+        "contact" : 2760121
+      },
+      "update":"10/5/2022",
+      "description" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione expedita, id necessitatibus odit beatae fugiat at amet velit cum nulla."
+    },
+    {
+      "id" : 18,
+      "img" : "11.png",
+      "type" : "Shop",
+      "status" : "OnSale",
+      "address":"7074 Southridge Lane",
+      "location" : "San Andres",
+      "price" : "920.000",
+      "size" : "700",
+      "bedroom" : "5",
+      "bathroom" : "2",
+      "garage" : "1",
+      "owner" : {
+        "name" : "Nelson Mandela",
+        "contact" : 2760121
+      },
+      "update":"8/10/2022",
+      "description" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione expedita, id necessitatibus odit beatae fugiat at amet velit cum nulla."
+    },
+    {
+      "id" : 19,
+      "img" : "12.png",
+      "type" : "Shop",
+      "status" : "OnLease",
+      "address":"72 Ruskin Place",
+      "location" : "Valle del Cauca",
+      "price" : "320.000",
+      "size" : "30",
+      "bedroom" : "1",
+      "bathroom" : "2",
+      "garage" : "0",
+      "owner" : {
+        "name" : "Emanuel Macrón",
         "contact" : 2760121
       },
       "update":"1/28/2022",
