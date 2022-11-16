@@ -42,19 +42,7 @@ export const showProperty = async () => {
       <div class="description">
         <h2>Description</h2>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea tempore
-          cumque, reiciendis veniam vero consequuntur similique nisi hic
-          corrupti voluptatibus, mollitia necessitatibus obcaecati culpa! Et
-          numquam fugiat id consectetur quis unde, at doloremque molestias
-          provident dolorum, esse est placeat eligendi, ad nobis optio! A
-          deserunt labore quasi aut, blanditiis eveniet. Error, nostrum
-          officiis non, iste voluptate exercitationem eos, veritatis enim
-          cupiditate doloremque in quas temporibus quae ipsam rerum possimus
-          recusandae! Lorem ipsum, dolor sit amet consectetur adipisicing
-          elit. Architecto blanditiis delectus in laborum tenetur. Deserunt
-          asperiores neque repudiandae eos libero consequatur laborum modi
-          reiciendis exercitationem earum pariatur, dolore voluptatibus velit
-          quis harum.
+          ${request.description}
         </p>
       </div>
     </section>
