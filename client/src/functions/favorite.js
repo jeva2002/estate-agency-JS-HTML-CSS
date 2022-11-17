@@ -1,9 +1,7 @@
 import { createCard } from '../components/card.js';
-import { insertCommon } from './common.js';
+import { insertCommon, SERVER_URL } from './common.js';
 
 insertCommon();
-
-const SERVER_URL = 'http://localhost:3000/properties/';
 
 const request = async (_id) => await (await fetch(SERVER_URL + _id)).json();
 

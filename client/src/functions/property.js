@@ -17,32 +17,24 @@ if (flag) {
   addFavorite.classList.toggle('myFavorites');
 }
 
-addFavorite.addEventListener('click', () => {
-  if (flag) {
-    addFavorite.classList.remove('myFavorites');
-    const list = [];
-    if (favorites.length === undefined) {
-      list.push(parseInt(favorites));
-    } else {
-      for (let i = 0; i < favorites.length; i++) {
-        if (favorites[i] !== id) {
-          list.push(favorites[i]);
-        }
-      }
-    }
-    localStorage.setItem('favorites', JSON.stringify(list));
+const add = (_flag) => {
+  let list;
+  if (flag) list = [];
+  else list = [id];
+  addFavorite.classList.toggle('myFavorites');
+  if (favorites.length === undefined) {
+    list.push(favorites);
   } else {
-    addFavorite.classList.add('myFavorites');
-    const list = [id];
-    if (favorites.length === undefined) {
-      list.push(parseInt(favorites));
-    } else {
-      for (let i = 0; i < favorites.length; i++) {
-        if (favorites[i] !== id) {
-          list.push(favorites[i]);
-        }
+    for (let i = 0; i < favorites.length; i++) {
+      if (favorites[i] !== id) {
+        list.push(favorites[i]);
       }
     }
-    localStorage.setItem('favorites', JSON.stringify(list));
   }
+  localStorage.setItem('favorites', JSON.stringify(list));
+};
+
+addFavorite.addEventListener('click', () => {
+  add(flag);
+  location.reload();
 });

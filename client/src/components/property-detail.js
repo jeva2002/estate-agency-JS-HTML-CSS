@@ -1,8 +1,8 @@
 export const showProperty = async () => {
-  const SERVER_URL = 'http://localhost:3000/properties/';
-
   const request = await (
-    await fetch(SERVER_URL + sessionStorage.getItem('id'))
+    await fetch(
+      'http://localhost:3000/properties/' + sessionStorage.getItem('id')
+    )
   ).json();
 
   document.getElementById('title').innerHTML = request.type;

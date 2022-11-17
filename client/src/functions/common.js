@@ -1,5 +1,5 @@
 import { footer } from '../components/footer.js';
-import { header } from '../components/header.js';
+import { header } from '../components/nav.js';
 
 export const insertCommon = (_isIndex) => {
   document
@@ -12,3 +12,5 @@ export const insertCommon = (_isIndex) => {
     .getElementById('body')
     .insertAdjacentElement('beforeend', footer(_isIndex));
 };
+
+export const SERVER_URL = 'http://localhost:3000/properties/';

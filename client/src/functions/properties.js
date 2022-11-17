@@ -1,9 +1,7 @@
 import { createCard } from '../components/card.js';
-import { insertCommon } from './common.js';
+import { insertCommon, SERVER_URL } from './common.js';
 
 insertCommon();
-
-const SERVER_URL = 'http://localhost:3000/properties/';
 
 const request = async (_word, _option) =>
   await (await fetch(SERVER_URL + `?q=${_word + _option}`)).json();

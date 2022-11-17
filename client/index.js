@@ -16,6 +16,7 @@ const submit = (e) => {
 };
 
 form.addEventListener('submit', submit);
+
 document.getElementById('properties').addEventListener('click', () => {
   sessionStorage.removeItem('search');
 });
